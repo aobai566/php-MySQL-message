@@ -1,4 +1,4 @@
-2.使用方法：
+2.使用方法：<br>
   1.需要有运行环境：phpstudy+MySQL
   2.打开account里面的sqlfile.txt配置数据表结构和内容
   3.填写account/sql.php内数据库名和密码
