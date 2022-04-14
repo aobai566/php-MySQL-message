@@ -1,0 +1,37 @@
+
+CREATE DATABASE userAoBai;
+
+USE userAoBai;
+
+create table user
+
+(
+
+user_name VARCHAR(20) not null,
+
+user_email VARCHAR(20) not null,
+
+user_password VARCHAR(20) not null,
+
+user_head_sculpture VARCHAR(255) not null
+
+);
+
+CREATE TABLE message
+
+(
+
+user_text text not null,
+user_name VARCHAR(20) not null,
+
+user_data VARCHAR(255) not null
+
+);
+
+insert into message values
+(
+'问：什么要刷新<br>回:因为这是静态网页（F5为刷新）<br>本平台为信息发送平台，可给羊一傲白发送文字信息',
+
+'官方提示',
+'使用必看'
+);
