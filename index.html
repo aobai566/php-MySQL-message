@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>羊一傲白消息平台-登录</title>
+    <link rel="stylesheet" href="css.js/125.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="register-box">
+            <h2 class="register-title">
+                <span>没有账号，去</span>注册
+            </h2>
+            <form action="account/GoLogon.php" method="post">
+                <div class="input-box">
+                    <input type="text" placeholder="用户名" name="text">
+                    <input type="email" name="email" placeholder="邮箱" name="email">
+                    <input type="password" placeholder="密码" name="password1">
+                    <input type="password" placeholder="确认密码" name="password2">
+                </div>
+                <button>注册</button>
+            </form>
+        </div>
+        <div class="login-box slide-up">
+            <form action="account/GoRegister.php" method="post">
+                <div class="center">
+                    <h2 class="login-title">
+                        <span>已有账号，去</span>登录
+                    </h2>
+                    <div class="input-box">
+                        <input type="text" placeholder="用户名" name="text">
+                        <input type="password" placeholder="密码" name="password">
+                    </div>
+                    <button>登录</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="css.js/125.js"></script>
+</body>
+
+</html>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?f19a4c4a47c2ac3b84f4b96edc387395";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
